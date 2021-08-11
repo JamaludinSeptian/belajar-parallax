@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* SETTINGAN UNTUK MEMBUAT EFFECT PARALLAX */
+.parallax{
+    background-image: url(/suelee-wright-H4Xlh-B_7Rg-unsplash.jpg);
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* SETTINGAN UNTUK UKURAN TABLET SAMPAI HANDPHONE*/
+ @media screen and (max-width: 768px) {
+    .parallax {
+        background-position: center;
+    } 
+
+
+/* SETTINGAN UNTUK UKURAN HANDPHONE */
+/* @media screen and (max-width: 425px) {
+    .parallax {
+        height: 100vh;
+        background-position: 0 0px;
+    } */
